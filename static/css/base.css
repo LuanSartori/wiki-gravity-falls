@@ -1,0 +1,51 @@
+/* um bom dia amigo */
+
+body{
+  /* margin: 0px; */
+  overflow: hidden;
+}
+
+/* ==================== CLASSES ==================== */
+
+.img-carousel{
+    width: 100vw;
+    height: 100vh;
+}
+
+.elemento-interativo{
+    animation: elemento-interativo 2s infinite;
+}
+
+.zoom {
+    animation: efeito-zoom 2s;
+    animation-fill-mode: forwards;
+}
+
+/* ==================== ID's ==================== */
+
+
+/* ==================== ANIMAÇÕES ==================== */
+
+@keyframes elemento-interativo {
+    0% {
+      box-shadow: inset 0px 0px 15px 1px #14ff00, 0px 0px 20px #14ff00;
+    }
+    50% {
+      box-shadow: inset 0px 0px 30px 3px #14ff00, 0px 0px 35px 5px #14ff00;
+    }
+    100% {
+      box-shadow: inset 0px 0px 15px 1px #14ff00, 0px 0px 20px #14ff00;
+    }
+}
+
+@keyframes efeito-zoom {
+    0% {
+      transform: scale(1);
+    }
+    80%{
+        transform: scale(5);
+    }
+    100% {
+      transform: scale(0.10);
+    }
+}

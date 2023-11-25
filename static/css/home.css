@@ -1,1 +1,53 @@
 /* um bom dia amigo */
+
+body{
+    /* margin: 0px; */
+    overflow: hidden;
+}
+
+/* ==================== CLASSES ==================== */
+
+/* ==================== ID's ==================== */
+
+#carousel-home{
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+#entrada-porta{
+    position: absolute;
+    left: 25.3%;
+    top: 74.5%;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    border-style: hidden;
+    
+    opacity: 60%;
+    
+    background-color: rgba(255, 255, 255, 0.80);
+    box-shadow: inset 0px 0px 15px 1px #14ff00, 0px 0px 20px #14ff00;   
+}
+
+#entrada-quarto{
+    position: absolute;
+    left: 25.40%;
+    top: 38%;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    border-style: hidden;
+    
+    opacity: 60%;
+    
+    background-color: rgba(255, 255, 255, 0.80);
+    box-shadow: inset 0px 0px 15px 1px #14ff00, 0px 0px 20px #14ff00;   
+}
+
+/* ==================== ANIMAÇÕES ==================== */
