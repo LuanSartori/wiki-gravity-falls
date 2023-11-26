@@ -7,6 +7,15 @@ body{
 
 /* ==================== CLASSES ==================== */
 
+.carousel-geral{
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
 .img-carousel{
     width: 100vw;
     height: 100vh;
@@ -24,6 +33,7 @@ body{
 
 .elemento-interativo{
     animation: elemento-interativo 2s infinite;
+    cursor: pointer;
 }
 
 .zoom {

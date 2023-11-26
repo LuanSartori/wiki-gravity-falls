@@ -1,22 +1,9 @@
 /* um bom dia amigo */
 
-body{
-    /* margin: 0px; */
-    overflow: hidden;
-}
 
 /* ==================== CLASSES ==================== */
 
 /* ==================== ID's ==================== */
-
-#carousel-home{
-    width: 100vw;
-    height: 100vh;
-
-    position: absolute;
-    left: 0px;
-    right: 0px;
-}
 
 #entrada-porta{
     position: absolute;
