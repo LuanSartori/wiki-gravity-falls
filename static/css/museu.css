@@ -3,6 +3,14 @@
 
 /* ==================== CLASSES ==================== */
 
+.abrir{
+    animation: abrindo 6s;
+    /* box-shadow: 0 0 10px #fff,
+                0 0 20px #fff, 0 0 30px #ff852e,
+                0 0 40px #ff852e, 0 0 50px #ff852e,
+                0 0 60px 100px #ff852e !important; */
+}
+
 
 /* ==================== ID's ==================== */
 
@@ -15,4 +23,72 @@
     opacity: 70%;
 }
 
+#abrir-bau{
+    left: 59.9%;
+    top: 57.70%;
+
+    width: 100px;
+    height: 100px;
+    opacity: 80%;
+}
+
 /* ==================== ANIMAÇÕES ==================== */
+
+@keyframes abrindo {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(0.10);
+    }
+
+    40% {
+        box-shadow: 0px 0px 10px #fff;
+        /* opacity: 100%; */
+    }
+
+    50% {
+        box-shadow: 0px 0px 10px #fff,
+                    0px 0px 20px 20px #fff,
+                    0px 0px 40px 40px #fff;
+    }
+
+    60% {
+        box-shadow: 
+                    0px 0px 20px 20px #fff,
+                    0px 0px 40px 40px #fff,
+                    0px 0px 60px 60px #fff,
+                    0px 0px 60px 60px #fff inset;
+    }
+
+    70% {
+        box-shadow:
+                    0px 0px 40px 40px #fff,
+                    0px 0px 60px 60px #fff,
+                    0px 0px 100px 100px #fff,
+                    0px 0px 100px 100px #fff inset;
+    }
+
+    75% {
+        box-shadow: 
+                    0px 0px 60px 50px #fff,
+                    0px 0px 100px 100px #fff,
+                    0px 0px 150px 150px #fff,
+                    0px 0px 150px 150px #fff inset;
+    }
+
+    80% {
+        box-shadow: 
+                    0px 0px 60px 50px #fff,
+                    0px 0px 100px 100px #fff,
+                    0px 0px 200px 200px #fff,
+                    0px 0px 200px 200px #fff inset;
+    }
+
+    100% {
+        box-shadow: 
+                    0px 0px 200px 200px #fff,
+                    0px 0px 200px 200px #fff inset;
+    }
+}
