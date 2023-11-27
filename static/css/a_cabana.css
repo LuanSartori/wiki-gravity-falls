@@ -32,12 +32,37 @@
     opacity: 70%; 
 }
 
-#stanley{
-    left: 40%;
-    top: 21%;
+#soos-btn{
+    position: fixed;
+    left: 18%;
+    top: 29%;
+}
 
-    /* width: 500px;
-    width: 600px; */
+#soos{
+    width: 260px;
+    height: 380px;
+}
+
+#stanley-btn{
+    position: fixed;
+    left: 40%;
+    top: 19%;
+}
+
+#stanley{
+    width: 450px;
+    /* height: 550px; */
+}
+
+#wendy-btn{
+    position: fixed;
+    left: 66%;
+    top: 22%;
+}
+
+#wendy{
+    width: 150px;
+    height: 450px;
 }
 
 /* ==================== ANIMAÇÕES ==================== */

@@ -32,6 +32,10 @@
     opacity: 80%;
 }
 
+#abrir-bau:focus{
+    outline-style: none;
+}
+
 /* ==================== ANIMAÇÕES ==================== */
 
 @keyframes abrindo {

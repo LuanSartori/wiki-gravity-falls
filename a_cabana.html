@@ -17,6 +17,11 @@
             <!-- maquina.html -->
             <div id="frame-maquina" class="carousel-item">
                 <img class="d-block w-100 img-carousel" src="static/imgs/fundos/maquina.png" alt="Second slide">
+
+                <!-- Soos -->
+                <button id="soos-btn" class="btn-personagem" data-toggle="modal" data-target="#modal-soos">
+                    <img id="soos" class="img-personagem" src="static/imgs/personagens/soos.png" alt="O nosso faz tudo preferido">
+                </button>
             </div>
             
             <!-- lojinha.html -->
@@ -27,7 +32,9 @@
                 <button id="saida-porta" class="elemento-interativo passagem" onclick="zoom('saida-porta', '/home.html')"></button>
 
                 <!-- Stanley -->
-                <img id="stanley" class="img-personagem elemento-interativo" src="static/imgs/personagens/stanley.png" alt="O nosso tibô preferido">
+                <button id="stanley-btn" class="btn-personagem" data-toggle="modal" data-target="#modal-stanley">
+                    <img id="stanley" class="img-personagem" src="static/imgs/personagens/stanley.png" alt="O nosso tibô preferido">
+                </button>
             </div>
 
             <!-- sala_mapa.html -->
@@ -39,6 +46,11 @@
 
                 <!-- ir para o museu -->
                 <button id="entrada-museu" class="elemento-interativo passagem" onclick="zoom('entrada-museu', '/museu.html')"></button>
+
+                <!-- Wendy -->
+                <button id="wendy-btn" class="btn-personagem" data-toggle="modal" data-target="#modal-wendy">
+                    <img id="wendy" class="img-personagem" src="static/imgs/personagens/wendy.png" alt="Nossa guerreira do apocalipse preferida">
+                </button>
             </div>
 
         </div>
@@ -53,7 +65,66 @@
             <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span> -->
         </a>
+    </div>
 
+    <!-- card do soos -->
+    <div class="modal fade" id="modal-soos" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Soos ???</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+    
+                    <p>um bom dia amigo</p>
+                    <!-- colocar os cards aqui -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card do stanley -->
+    <div class="modal fade" id="modal-stanley" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Dipper Pines</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+    
+                    <p>um bom dia amigo</p>
+                    <!-- colocar os cards aqui -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card do wendy -->
+    <div class="modal fade" id="modal-wendy" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Wendy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+    
+                    <p>um bom dia amigo</p>
+                    <!-- colocar os cards aqui -->
+
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="static/js/a_cabana.js"></script>

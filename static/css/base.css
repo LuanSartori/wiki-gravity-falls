@@ -22,7 +22,17 @@ body{
 }
 
 .img-personagem{
-    position: absolute;
+  filter: drop-shadow(0 0 30px #14ff00);
+}
+
+.btn-personagem{
+  border-style: none;
+  background-color: #fff0;
+  cursor: pointer;
+}
+
+.btn-personagem:focus{
+  outline-style: none;
 }
 
 .passagem{
@@ -41,7 +51,7 @@ body{
 }
 
 .zoom {
-    animation: efeito-zoom 2s;
+    animation: efeito-zoom 1s;
     animation-fill-mode: forwards;
 }
 

@@ -9,7 +9,7 @@ function zoom(id, page) {
         localStorage.setItem("localPassado", local_agora)
 
         window.location.href = page;
-    }, 2000)
+    }, 1000)
 }
 
 function goto(page) {
