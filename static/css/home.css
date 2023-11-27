@@ -43,7 +43,16 @@
 
     width: 100px;
     height: 100px;
-    opacity: 70%;
+    opacity: 30%;
+}
+
+#passagem-arvore{
+    left: 78.81%;
+    top: 37.59%;
+
+    width: 100px;
+    height: 100px;
+    opacity: 60%;
 }
 
 /* ==================== ANIMAÇÕES ==================== */
