@@ -13,12 +13,12 @@ switch (local_passado) {
         break;
 
     case "/estatua.html":
-        frame_ativo = document.getElementById("frame-pinheiro");
+        frame_ativo = document.getElementById("frame-pinheiros");
         setaDireita.hidden = true;
         break;
 
     case "/arvore.html":
-        frame_ativo = document.getElementById("frame-pinheiro");
+        frame_ativo = document.getElementById("frame-pinheiros");
         setaDireita.hidden = true;
         break;
 
