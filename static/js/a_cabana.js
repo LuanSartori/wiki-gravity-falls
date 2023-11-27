@@ -4,7 +4,7 @@ var local_passado = localStorage.getItem("localPassado");
 var frame_ativo;
 
 switch (local_passado) {
-    case "/home.html":
+    case "/a_cabana.html":
         frame_ativo = document.getElementById("frame-lojinha");
         break;
 

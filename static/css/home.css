@@ -37,4 +37,13 @@
     box-shadow: inset 0px 0px 15px 1px #14ff00, 0px 0px 20px #14ff00;   
 }
 
+#passagem-estatua{
+    left: 28.88%;
+    top: 47.36%;
+
+    width: 100px;
+    height: 100px;
+    opacity: 70%;
+}
+
 /* ==================== ANIMAÇÕES ==================== */
