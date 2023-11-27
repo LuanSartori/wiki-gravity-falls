@@ -21,6 +21,10 @@ body{
     height: 100vh;
 }
 
+.img-personagem{
+    position: absolute;
+}
+
 .passagem{
     position: absolute;
 
