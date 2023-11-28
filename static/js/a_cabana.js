@@ -16,9 +16,8 @@ switch (local_passado) {
         frame_ativo = document.getElementById("frame-sala-mapa");
         break;
         
-    case "/escada_porao":
+    case "/escada.html":
         frame_ativo = document.getElementById("frame-maquina");
-        // TODO: Atualizar aqui quando terminar
         break;
 
     default:

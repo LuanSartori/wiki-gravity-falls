@@ -5,6 +5,15 @@
 
 /* ==================== ID's ==================== */
 
+#entrada-porao{
+    left: 53.75%;
+    top: 41.80%;
+
+    width: 75px;
+    height: 75px;
+    opacity: 90%;
+}
+
 #saida-porta{
     left: 19.80%;
     top: 47.50%;

@@ -11,6 +11,18 @@
                 0 0 60px 100px #ff852e !important; */
 }
 
+.card-ep{
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+.img-card{
+    left: 25%;
+    width: 200px;
+    height: 200px;
+}
+
 
 /* ==================== ID's ==================== */
 
@@ -36,6 +48,15 @@
     outline-style: none;
 }
 
+#carousel-museu{
+    left: 26.66%;
+    top: 6.05%;
+
+    width: 55.55%;
+    height: 87.89%;
+}
+
+
 /* ==================== ANIMAÇÕES ==================== */
 
 @keyframes abrindo {
@@ -55,7 +76,8 @@
     50% {
         box-shadow: 0px 0px 10px #fff,
                     0px 0px 20px 20px #fff,
-                    0px 0px 40px 40px #fff;
+                    0px 0px 40px 40px #fff,
+                    0px 0px 40px 40px #fff inset;
     }
 
     60% {
